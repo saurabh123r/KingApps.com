@@ -1,0 +1,150 @@
+ul {
+     display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 65px;
+    
+    
+    
+}
+.nav ul li {
+    margin-left: 120px;
+    padding-top: 0px;
+    
+    
+}
+.nav ul li a{
+	
+    color: white;
+    text-decoration: none;
+    position:fixed;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav ul li a:hover {
+    color: grey;
+    text-decoration: underline;
+
+}
+.nav{
+position:fixed;
+top:0px;
+}
+.btn{
+padding-bottom: 40px;
+    margin-left:40px;
+    border:none;
+    
+}
+.nav{
+border-radius:20px;
+border: 2px solid black;
+background-color:black;
+width:1200px;
+opacity: 55%;
+
+}
+body{
+background:linear-gradient( 90deg,red,lime );
+background-size: 1281px 1450px;
+background-repeat:no-repeat;
+}
+/* .nav ul li a:active{
+    text-decoration: underline;
+}
+ .btn{
+    text-decoration: none;
+} */
+
+#bt{
+   
+    height: 30px;
+    background-color: transparent;
+    margin-left: 280px;
+}
+#bt a:hover{
+  color: yellow;
+}
+#bt a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#b {
+
+    height: 30px;
+    background-color: transparent; 
+    margin-left: 40px
+    
+    
+    }
+    #bt:hover{
+        color: yellow;
+    }
+    
+    #b a{
+    width:200px;
+        text-decoration: none;
+        color:white;
+        font-weight: bold;
+}
+    #b a:hover{
+        color: greenyellow;
+}
+    
+.from a{
+    text-decoration: none;
+    color: black;
+}
+.from:hover{
+    border: 2px solid fuchsia;
+    background-color: aqua;
+    color: greenyellow;
+}
+    
+    
+
+
+div .button{
+    text-decoration: none;
+    color: red;
+}
+.flexbox{
+display: flex;
+}
+.box-windows{
+text-align:center;
+border: 2px solid fuchsia;
+    border-radius: 10px;
+    color:fuchsia;
+    width: 400px;
+    margin-top: 140px;
+    margin-left: 50px;
+    padding: 50px 110px 20px 110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+.box-app{
+text-align:center;
+border: 2px solid fuchsia;
+    border-radius: 10px;
+    color:fuchsia;
+    width: 400px;
+    margin-top: 140px;
+    margin-left: 50px;
+    padding: 50px 110px 20px 110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+.from{
+    background-color: greenyellow;
+    border-radius: 10px;
+    height: 40px;
+    width: 250px;
+    
+    } 
+.from a {
+font-weight: bold;
+font-size: 15px;
+}
